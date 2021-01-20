@@ -30,8 +30,8 @@ while player !="quit":
 print("\n\nFINAL SCORES: \n")
 print("PLAYER={} , COMPUTER={} , TIE={}\n".format(player_score,computer_score,tie_score))
 if player_score>computer_score:
-    print("Player wins!!😎\n")
+    print("Player wins!\n")
 elif computer_score>player_score:
-    print("Computer wins!!🥳\n")
+    print("Computer wins!\n")
 elif player_score==computer_score:
-    print("It's a tie!!🥳\n")
+    print("It's a tie!\n")
