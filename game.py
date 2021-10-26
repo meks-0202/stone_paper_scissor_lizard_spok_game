@@ -1,6 +1,6 @@
 import tensorflow as tf
 import cv2
-
+## TO be used for hand recognition
 import random
 
 results=[("stone","scissors"),("paper","stone"),("scissors","paper"),("paper","spok"),("stone","lizard"),("scissors","lizard"),("lizard","spok"),("lizard","paper"),("spok","stone"),("spok","scissors"),("stone","lizard")]
@@ -38,4 +38,5 @@ elif computer_score>player_score:
     print("Computer wins!\n")
 elif player_score==computer_score:
     print("It's a tie!\n")
+print("GAME OVER")
 print("This game is going to be updated further, and will include Hand recognition to play :)")
